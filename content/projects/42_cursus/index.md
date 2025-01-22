@@ -15,7 +15,7 @@ title: Welcom to 42 Cursus
 ## Holy Graph
 
 <div align="center">
-	<img src="static/images/holy_graph.png" alt="Alt text" width="400" />
+	<img src="projects/42_cursus/holy_graph.png" alt="Alt text" width="400" />
 </div>
 
 ( Future support auto update with using API )
