@@ -33,9 +33,14 @@ jobs:
         run: npx quartz build
 
       - name: Upload artifact
+        if: ${{ !env.ACT }} # Skip upload if runnning
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: ./public
+
+      # debug on local ( useing `act` )
+      - name: Save locally for testing
+        run: cp -r ./public /tmp/artifact
  
   deploy:
     needs: build
@@ -46,4 +51,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
+        if: github.actor != 'nektos/act' # Skip deployment locally
         uses: actions/deploy-pages@v4
