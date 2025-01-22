@@ -1,0 +1,42 @@
+## Ignore everything by default
+#*
+#
+## Allow directories to be included so we can selectively whitelist files
+#!*/
+#
+## Git
+#!.gitignore
+#
+## Static Site
+#!*.html
+#!*.css
+#!*.js
+#!*.png
+#!*.svg
+#!*.ts
+#!*.json
+#!*.txt
+#!*.yml
+#!*.yaml
+#
+## Custom scripts
+#!*.sh
+#
+## Document contents
+#!*.md
+#
+## Ignore directory
+#node_modules
+#public
+
+
+#.gitignore
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix
