@@ -22,4 +22,4 @@ title: Welcom to 42 Cursus
 
 ## Success Projects
 
-* [Cub3d](https://kamitsui.github.io/cub3D/)
+* [Cub3d](https://kamitsui.github.io/cub3D/index.html)
