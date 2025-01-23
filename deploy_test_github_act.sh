@@ -3,10 +3,7 @@
 export ACTIONS_RUNTIME_TOKEN=fake-token
 export GITHUB_TOKEN=fake-token
 
-# Option : select dry mode or run mode
-arg=$1
-
-if [ $arg == "dry" ]; then
+if [[ $1 == "dry" ]]; then
 	# dryrun mode ( Only check workflow syntax )... does not docker run
 	act -n --container-architecture linux/amd64
 else
