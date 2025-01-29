@@ -6,5 +6,6 @@ title: Aptunes de kamitsui
 
 - [42 Cursus](projects/42_cursus/index.md)
 - [markdown](develop/markdown.md)
+- [git](develop/git.md)
 
 this repository : [GitHub](https://github.com/kamitsui/Apuntes_de_kamitsui)
