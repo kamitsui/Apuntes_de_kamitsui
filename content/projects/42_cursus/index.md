@@ -8,8 +8,8 @@ title: Welcom to 42 Cursus
 
 ## Status
 
-* level: 4 (46%)
-* Open teams: ExamRank04
+* level: 5 (2%)
+* Open teams: Exam Rank 04, NetPractice
 
 
 ## Holy Graph
@@ -22,8 +22,13 @@ title: Welcom to 42 Cursus
 
 ## Current Project
 
-* [CPP Modules](https://kamitsui.github.io/cpp00/)
+* [CPP Modules](https://kamitsui.github.io/CPP_Modules/)
 
 ## Success Projects
 
 * [Cub3d](https://kamitsui.github.io/cub3D/index.html)
+* [CPP00](https://kamitsui.github.io/cpp00/)
+* [CPP01](https://kamitsui.github.io/cpp01/)
+* [CPP02](https://kamitsui.github.io/cpp02/)
+* [CPP03](https://kamitsui.github.io/cpp03/)
+* [CPP04](https://kamitsui.github.io/cpp04/)
