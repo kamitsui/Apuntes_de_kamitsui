@@ -9,7 +9,7 @@ title: Welcom to 42 Cursus
 ## Status
 
 * level: 5 (2%)
-* Open teams: Exam Rank 04, NetPractice
+* Open teams: NetPractice
 
 
 ## Holy Graph
@@ -22,10 +22,16 @@ title: Welcom to 42 Cursus
 
 ## Current Project
 
+* [NetPractice](https://kamitsui.github.io/NetPractice/)
 * [CPP Modules](https://kamitsui.github.io/CPP_Modules/)
+* [CPP05](https://kamitsui.github.io/cpp05/)
 
 ## Success Projects
 
+* libft
+* ft_printf, get_next_line, Born2beroot
+* fdf, pipex, push-swap
+* minishell, philosophers
 * [Cub3d](https://kamitsui.github.io/cub3D/index.html)
 * [CPP00](https://kamitsui.github.io/cpp00/)
 * [CPP01](https://kamitsui.github.io/cpp01/)
