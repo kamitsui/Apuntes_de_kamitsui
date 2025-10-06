@@ -20,3 +20,44 @@ git config user.email "your.company.email@example.com"
 
 > [!note]
 > プロジェクト毎によって、ユーザー情報を使い分けてGitのログを残すことができる。
+
+## タグ情報
+
+* タグをつけると、基点となるコミットを明確化につながります。
+```sh
+git tag -a v0.1.0-research-complete -m "Initial design review and research phase finalized. Ready for module implementation."
+git push origin --tags # リモートリポジトリにタグもプッシュ
+```
+
+* 誤って付けたGitタグはローカルとリモートの両方とも削除する必要がある。
+> 1. ローカルのタグを削除
+> ```sh
+> # タグの一覧を確認する
+> git tag
+> 
+> # ローカルリポジトリからタグを削除する
+> git tag -d <タグ名>
+> 
+> # 例
+> git tag -d v1.0.0-mistake
+> # Deleted tag 'v1.0.0-mistake' (was 12a34bc)
+> ```
+> 2. リモートのタグを削除
+> ```sh
+> # リモートリポジトリからタグを削除する
+> git push origin --delete <タグ名>
+> ```
+> 3. 新しいタグを打ち直す
+> > * 新しいコミットにタグを付ける場合
+> > ```sh
+> > git tag -a <正しいタグ名> -m "正しいメッセージ"
+> > ```
+> > * 過去のコミットIDにタグを付け直す場合
+> > ```sh
+> > git tag -a <正しいタグ名> <コミットID> -m "正しいメッセージ"
+> > # git tag -a v1.0.0 abc1234 -m "Release v1.0.0"
+> > ```
+> 4. リモートにプッシュする
+> ```sh
+> git push origin --tags
+> ```
