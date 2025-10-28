@@ -21,6 +21,7 @@ title: Aptunes de kamitsui
 | [markdown](markdown.md) | マークダウン記法 |
 | [git](git.md) | gitでよく使う操作メモ |
 | [vim](Vim.md) | vimでよく使う操作メモ |
+| [awesome command](awesome_command.md) | お気に入りコマンドメモ |
 
 | Docs tool | Overview |
 | :---- | :---- |
