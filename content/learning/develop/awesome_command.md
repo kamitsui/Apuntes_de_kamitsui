@@ -1,5 +1,21 @@
 ## AI CLI tools
 
+* GeminiCLI をインストールせず実行する。（プロンプトを直接指定かつyoroモード）
 ```sh
-npx https://github.com/google-gemini/gemini-cli -m gemini-2.5-flash -p "現在のGitリポジトリにADDした内容についてコミットメッセージを提 案して下さい。シンプルな英語でGitベストプラクティスに沿って下さい。" -y
+npx https://github.com/google-gemini/gemini-cli -m gemini-2.5-flash -p "xxx" -y
+```
+
+* Git コミットメッセージの提案
+```
+現在のリポジトリの変更内容をGitコミットするためのメッセージを提案してください。
+シンプルな英語で Conventional Commits の仕様に沿ってください。
+コミットメッセージの構成はこちら
+\```
+[要約のタイトル (50文字以内)]
+
+[詳細な説明をここに記述します。1行目との間に空白行を設けます。本文の各行も72文字以内が目安です。]
+\```
+git diff で変更内容を確認してください。
+過去のコミットログ３つ確認してください。
+それらの情報を元に提案してください。
 ```
