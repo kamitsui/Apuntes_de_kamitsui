@@ -8,9 +8,8 @@ title: Welcom to 42 Cursus
 
 ## Status
 
-* level: 5 (2%)
-* Open teams: NetPractice
-
+* level: 7 (7%)
+* Open teams: Inception
 
 ## Holy Graph
 
@@ -22,9 +21,7 @@ title: Welcom to 42 Cursus
 
 ## Current Project
 
-* [NetPractice](https://kamitsui.github.io/NetPractice/)
-* [CPP Modules](https://kamitsui.github.io/CPP_Modules/)
-* [CPP05](https://kamitsui.github.io/cpp05/)
+* Inception
 
 ## Success Projects
 
@@ -33,8 +30,6 @@ title: Welcom to 42 Cursus
 * fdf, pipex, push-swap
 * minishell, philosophers
 * [Cub3d](https://kamitsui.github.io/cub3D/index.html)
-* [CPP00](https://kamitsui.github.io/cpp00/)
-* [CPP01](https://kamitsui.github.io/cpp01/)
-* [CPP02](https://kamitsui.github.io/cpp02/)
-* [CPP03](https://kamitsui.github.io/cpp03/)
-* [CPP04](https://kamitsui.github.io/cpp04/)
+* [NetPractice](https://kamitsui.github.io/NetPractice/)
+* [CPP Modules](https://kamitsui.github.io/CPP_Modules/)
+* [ft_irc](https://kamitsui.github.io/ft_irc/)
